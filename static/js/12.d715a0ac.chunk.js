@@ -1,0 +1,2 @@
+(this.webpackJsonpmultisenderv2=this.webpackJsonpmultisenderv2||[]).push([[12],{1377:function(n,i){},1389:function(n,i){},1390:function(n,i){},1392:function(n,i){},1393:function(n,i){}}]);
+//# sourceMappingURL=12.d715a0ac.chunk.js.map
