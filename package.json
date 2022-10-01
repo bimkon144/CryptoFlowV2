@@ -1,6 +1,6 @@
 {
-  "name": "multisender",
-  "version": "0.1.0",
+  "name": "multisenderv2",
+  "version": "0.2.0",
   "license": "MIT",
   "description": "Multisender let you send eth, erc20, nft731, nft1155 to multiaddresses",
   "engines": {

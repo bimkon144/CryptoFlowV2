@@ -5,6 +5,7 @@ import { App } from './App';
 import './index.scss';
 import { getProvider } from './utils/provider';
 import { MoralisProvider } from "react-moralis";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
