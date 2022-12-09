@@ -11,13 +11,13 @@
     "static/js/4.dd0b3f4f.chunk.js": "/CryptoFlowV2/static/js/4.dd0b3f4f.chunk.js",
     "static/js/4.dd0b3f4f.chunk.js.map": "/CryptoFlowV2/static/js/4.dd0b3f4f.chunk.js.map",
     "main.css": "/CryptoFlowV2/static/css/main.469c9bbf.chunk.css",
-    "main.js": "/CryptoFlowV2/static/js/main.3984d189.chunk.js",
-    "main.js.map": "/CryptoFlowV2/static/js/main.3984d189.chunk.js.map",
+    "main.js": "/CryptoFlowV2/static/js/main.e2c8f881.chunk.js",
+    "main.js.map": "/CryptoFlowV2/static/js/main.e2c8f881.chunk.js.map",
     "runtime-main.js": "/CryptoFlowV2/static/js/runtime-main.100cb9c0.js",
     "runtime-main.js.map": "/CryptoFlowV2/static/js/runtime-main.100cb9c0.js.map",
     "static/css/7.f88c2240.chunk.css": "/CryptoFlowV2/static/css/7.f88c2240.chunk.css",
-    "static/js/7.ba68f5aa.chunk.js": "/CryptoFlowV2/static/js/7.ba68f5aa.chunk.js",
-    "static/js/7.ba68f5aa.chunk.js.map": "/CryptoFlowV2/static/js/7.ba68f5aa.chunk.js.map",
+    "static/js/7.a30700b0.chunk.js": "/CryptoFlowV2/static/js/7.a30700b0.chunk.js",
+    "static/js/7.a30700b0.chunk.js.map": "/CryptoFlowV2/static/js/7.a30700b0.chunk.js.map",
     "static/js/8.7f7104e0.chunk.js": "/CryptoFlowV2/static/js/8.7f7104e0.chunk.js",
     "static/js/8.7f7104e0.chunk.js.map": "/CryptoFlowV2/static/js/8.7f7104e0.chunk.js.map",
     "static/js/9.8f898427.chunk.js": "/CryptoFlowV2/static/js/9.8f898427.chunk.js",
@@ -44,15 +44,15 @@
     "static/js/1.ffd5fed2.chunk.js.LICENSE.txt": "/CryptoFlowV2/static/js/1.ffd5fed2.chunk.js.LICENSE.txt",
     "static/js/3.cc25d41f.chunk.js.LICENSE.txt": "/CryptoFlowV2/static/js/3.cc25d41f.chunk.js.LICENSE.txt",
     "static/js/4.dd0b3f4f.chunk.js.LICENSE.txt": "/CryptoFlowV2/static/js/4.dd0b3f4f.chunk.js.LICENSE.txt",
-    "static/js/7.ba68f5aa.chunk.js.LICENSE.txt": "/CryptoFlowV2/static/js/7.ba68f5aa.chunk.js.LICENSE.txt",
+    "static/js/7.a30700b0.chunk.js.LICENSE.txt": "/CryptoFlowV2/static/js/7.a30700b0.chunk.js.LICENSE.txt",
     "static/js/8.7f7104e0.chunk.js.LICENSE.txt": "/CryptoFlowV2/static/js/8.7f7104e0.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/CryptoFlowV2/static/media/Roboto-Regular.ffdb6afa.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.100cb9c0.js",
     "static/css/7.f88c2240.chunk.css",
-    "static/js/7.ba68f5aa.chunk.js",
+    "static/js/7.a30700b0.chunk.js",
     "static/css/main.469c9bbf.chunk.css",
-    "static/js/main.3984d189.chunk.js"
+    "static/js/main.e2c8f881.chunk.js"
   ]
 }
