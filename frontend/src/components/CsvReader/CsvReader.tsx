@@ -94,22 +94,12 @@ const CSVReader = (data: { isProfile?: boolean }) => {
     );
     const { isProfile } = data;
 
-    async function deployDataToIpfs(dataArray: string[][], encryptedData: string) {
-        const cid = await deployToIpfs(encryptedData);
-        WebStore.setCidPhrase(cid);
-        WebStore.setCidModal(true);
-        WebStore.setModalShow(true)
-        WebStore.setAddressesBookData(dataArray);
-
-    }
-
     return (
         <CSVReader
             onUploadAccepted={(results: { data: any[]; }, file: any) => {
                 if (isProfile) {
                     const filteredArray: any = results.data.filter(n => n != '');
-                    const encryptedText = getEncryptedText(filteredArray, WebStore.signature);
-                    deployDataToIpfs(filteredArray, encryptedText);
+                    WebStore.setAddressesBookData(filteredArray);
 
                 } else {
                     const newArray = results.data.filter(n => n != '');

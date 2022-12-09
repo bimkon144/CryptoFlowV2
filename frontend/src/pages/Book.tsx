@@ -28,6 +28,7 @@ const Book = observer(() => {
           });
           WebStore.setDataWithCheckboxState(originalText);
           WebStore.setAddressesBookData(slicedDataToNormalView);
+          console.log('origintest', originalText, slicedDataToNormalView);
           originalText.forEach((array:string[], index:number) => {
             WebStore.setCheckboxStateFromIpfs(array, index);
           });
