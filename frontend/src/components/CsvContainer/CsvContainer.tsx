@@ -18,6 +18,7 @@ const CsvContainer: React.FC = observer(() => {
     const { library, active, account, chainId } = context;
     const multiSendContractAddress = "0xe776C27ebFe7D0Eb741aD3Ab113Bbcb5659396f5";
     const busdAddress = "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+    const usdtAddress = "0x55d398326f99059fF775485246999027B3197955"
 
     const [loading, setLoading] = useState(true);
     const [selectedOption, setSelectedOption] = useState('');
@@ -47,7 +48,11 @@ const CsvContainer: React.FC = observer(() => {
         const balanceOfBusd = await busdContract.balanceOf(account);
         const symbolOfBusd = await busdContract.symbol();
 
-        let newTokens = [{ label: `${symbolOfBusd} - ${(+ethers.utils.formatUnits(balanceOfBusd)).toFixed(4)} - ${busdAddress}`, value: busdAddress }];
+        const usdtContract = new ethers.Contract(usdtAddress, ERC20, signer)
+        const balanceOfUsdt = await usdtContract.balanceOf(account);
+        const symbolOfUsdt = await usdtContract.symbol();
+
+        let newTokens = [{ label: `${symbolOfBusd} - ${(+ethers.utils.formatUnits(balanceOfBusd)).toFixed(4)} - ${busdAddress}`, value: busdAddress }, { label: `${symbolOfUsdt} - ${(+ethers.utils.formatUnits(balanceOfUsdt)).toFixed(4)} - ${usdtAddress}`, value: usdtAddress }];
         newTokens.unshift({
             label: `${nativeAssets} - ${(+ethers.utils.formatUnits(nativeAssetBalance)).toFixed(4)} - ${nativeAssetsAddress}`,
             value: nativeAssetsAddress
